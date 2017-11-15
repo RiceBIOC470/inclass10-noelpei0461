@@ -1,6 +1,13 @@
 %In this directory, you will find some example data, which is a 300x8
 %array stored in a .mat file. Image these are measurements for 300 genes are 8 different time
 %points
+%GB COMMENTS
+1)100
+2)100
+3)95 needed to fix couple of your graphs. The hold on command was generating a two graphs into one when it shouldn’t do that. Also line graphs are not appropriate way to represent the data. Next time, use a scatter plot.  
+4)100
+overall: 99
+
 
 %1. Use matlab to perform pca on this data, getting the transformation
 %matrix, the transformed data, and the eigenvalues.
